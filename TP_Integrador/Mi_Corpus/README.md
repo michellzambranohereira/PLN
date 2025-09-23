@@ -3,7 +3,7 @@
 ## Descripción
 Breve descripción del corpus elegido: El corpus elegido está basado en canciones del genero Merengue, todas con temática sobre el 'amor', comprendidas entre los años 1985 al 2007. El corpus abarca 20 canciones, todas extraídas de las páginas: Genius.com, Letras.com. Cada una de ellas transformadas al formato .txt
 
-Objetivos del análisis: saber si en términos de letras el merengue a ido evolucionando en sus descripciones sobre el amor.
+Objetivos del análisis: Saber si en términos de letras el merengue a ido evolucionando en sus descripciones sobre el amor.
 Principales hallazgos encontrados: Se descubrió que, en el merengue entre 1985 y 2007, los adjetivos casi no crecieron en importancia, lo que significa que las letras no se volvieron más descriptivas con el tiempo. Ademas, los verbos y los sutantivos fueron utilizados con mucha frecuencia en la década de los 80s-90s, y luego los tres grupos gramaticales fueron reduciendose a partir de los años 2000. 
 
 ## Información del Corpus
