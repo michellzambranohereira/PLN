@@ -21,10 +21,16 @@ Principales hallazgos encontrados: Se descubrió que, en el merengue entre 1985 
 - Técnica complementaria aplicada: POS Tagging
 
 ## Principales Hallazgos
-- #1: El uso de adjetivos en las cancionces de Merengue no cambió sustancialmente dentro del período de estudio, indicando que en realidad el Merengue no se sustenta en descripciones sobre el amor, sino en un lenguaje más activo y narrativo
-- #2: Uso elevado de sustantivos en la década de los 80s-90s, que refuerzan el estilo poético.
-- #3: En los 90s, las letras se centraron mucho más en verbos, es decir, en narrar lo que ocurre en la relación: buscar, perder, sufrir, enamorarse.
+- #1: El merengue amoroso parece haber enfatizado más los sustantivos (cosas, personas, conceptos) y los verbos (acciones, sentimientos, dinámicas) que los adjetivos (descripciones).
+- #2: Hubo un cambio en los 90: los sustantivos bajaron mientras que los verbos subieron, lo que sugiere un viraje desde lo nominal (nombres, objetos) hacia lo activo (acciones, procesos) en las letras.
+- #3: A partir de los 2000, se percibe una simplificación general: menos sustantivos y verbos, y pocos adjetivos, lo que podría reflejar un estilo más directo o repetitivo en las letras.
 - Comparación entre métodos: Embbedings fue el mejor enfoque para poder dar respuesta la hipótesis planteada, ya que al representar las palabras en un espacio semántico, permitió detectar similitudes temáticas más profundas entre canciones, incluso cuando no compartían vocabulario explícito.
+
+- #1: El merengue amoroso parece haber enfatizado más los sustantivos (cosas, personas, conceptos) y los verbos (acciones, sentimientos, dinámicas) que los adjetivos (descripciones).
+
+- #2: Hubo un cambio en los 90: los sustantivos bajaron mientras que los verbos subieron, lo que sugiere un viraje desde lo nominal (nombres, objetos) hacia lo activo (acciones, procesos) en las letras.
+
+- #3: A partir de los 2000, se percibe una simplificación general: menos sustantivos y verbos, y pocos adjetivos, lo que podría reflejar un estilo más directo o repetitivo en las letras.
 
 ## Tecnologías Utilizadas
 - Python 3.x
