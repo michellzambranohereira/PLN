@@ -21,10 +21,11 @@ Principales hallazgos encontrados: Se descubrió que, en el merengue entre 1985 
 - Técnica complementaria aplicada: POS Tagging
 
 ## Principales Hallazgos
-- #1: El merengue amoroso parece haber enfatizado más los sustantivos (cosas, personas, conceptos) y los verbos (acciones, sentimientos, dinámicas) que los adjetivos (descripciones).
-- #2: Hubo un cambio en los 90: los sustantivos bajaron mientras que los verbos subieron, lo que sugiere un viraje desde lo nominal (nombres, objetos) hacia lo activo (acciones, procesos) en las letras.
-- #3: A partir de los 2000, se percibe una simplificación general: menos sustantivos y verbos, y pocos adjetivos, lo que podría reflejar un estilo más directo o repetitivo en las letras.
-- Comparación entre métodos: Embbedings fue el mejor enfoque para poder dar respuesta la hipótesis planteada, ya que al representar las palabras en un espacio semántico, permitió detectar similitudes temáticas más profundas entre canciones, incluso cuando no compartían vocabulario explícito.
+- #1: El merengue parece haber enfatizado más los sustantivos (cosas, personas, conceptos) y los verbos (acciones, sentimientos, dinámicas) que los adjetivos (descripciones).
+- #2: Los sustantivos fueron muy relevantes a fines de los 80s y principio de los 90s.
+- #3: Hubo un cambio en los 90: los sustantivos bajaron mientras que los verbos subieron, lo que sugiere un viraje desde lo nominal (nombres, objetos) hacia lo activo (acciones, procesos) en las letras.
+- #4: A partir de los 2000, se percibe una simplificación general: menos sustantivos y verbos, y pocos adjetivos, lo que podría reflejar un estilo más directo o repetitivo en las letras.
+- Comparación entre métodos: Embedding fue el mejor enfoque, ya que al representar las palabras en un espacio semántico, permitió detectar similitudes temáticas más profundas entre canciones, incluso cuando no compartían vocabulario explícito. Pero, Pos Tagging fue el análisis que finalmente dió respuesta de la hipótesis planteada.
 
 ## Tecnologías Utilizadas
 - Python 3.x
