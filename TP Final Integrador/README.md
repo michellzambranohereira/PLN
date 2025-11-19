@@ -15,6 +15,9 @@ Este sistema permite consultar opiniones, sentimientos y patrones narrativos pre
 
 Demo: 
 
+https://www.loom.com/share/950e7158e15549f4b5a9189c5497a33b
+
+
 Ejecución local
 streamlit run app.py
 
