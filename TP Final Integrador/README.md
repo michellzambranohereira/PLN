@@ -127,6 +127,60 @@ pip install -r requirements.txt
 3. Ejecutar la aplicación
 streamlit run app.py
 
+Errores Encontrados y Soluciones
+
+A continuación se detallan los principales errores enfrentados durante el desarrollo, qué los causaba y cómo se resolvieron.
+
+1. Error: Database is read-only (ChromaDB) InternalError: attempt to write a readonly database
+
+Causa: Windows bloquea la escritura cuando Chroma intenta crear chroma_db/ en carpetas protegidas.
+
+Solución: Usar Chroma en memoria, sin persistencia: db = Chroma.from_documents(chunks, embeddings, collection_name="hp_reviews_collection")
+
+2. Error: Módulo faltante ModuleNotFoundError: No module named 'langchain_core'
+
+Causa: Una versión nueva de LangChain rompía compatibilidad con código viejo.
+
+Solución: Fijar versiones estables en requirements.txt.
+
+3. Error con operador | (RunnablePassthrough) TypeError: unsupported operand type(s) for |: 'dict' and 'function'
+
+Causa: Se estaba usando un pipeline nuevo de LangChain incompatible con la versión instalada.
+
+Solución: Simplificar el flujo RAG usando RetrievalQA.
+
+4. Error de Meta Tensor / GPU NotImplementedError: Cannot copy out of meta tensor
+
+Causa: Algunos modelos de Transformers intentaban cargar en GPU (no disponible).
+
+Solución: Usar Flan-T5-Base sin GPU → funciona 100% CPU.
+
+5. Error de GEMINI (cuotas agotadas) Error embedding content: 429 - quota exceeded
+
+Causa: Google no permite usar embeddings gratuitos sin habilitar billing.
+
+Solución: Abandonar Gemini y usar embeddings locales con SentenceTransformers.
+
+6. La interfaz de Streamlit no cargaba
+
+Causa: El código chocaba ANTES de renderizar Streamlit (errores de embeddings o LLM).
+
+Solución: Encapsular carga en funciones cacheadas (@st.cache_resource). Probar el pipeline por partes. Confirmar que el dataset carga correctamente
+
+7. El sistema respondía mal
+
+Causa: Modelo pequeño (Flan-T5). Sin prompt personalizado. Reseñas cortas → poco contenido.
+
+Solución: Aceptar limitaciones por hardware y mantener un MVP simple, funcional y reproducible.
+
+Ejemplos de Consultas
+
+- ¿Qué opiniones negativas existen sobre Snape?
+
+- Opiniones negativas sobre la saga.
+
+- Reseñas sobre el universo de Harry Potter.
+
 
 Autoras:
 - Michell Zambrano
