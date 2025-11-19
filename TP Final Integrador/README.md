@@ -16,7 +16,7 @@ Este sistema permite consultar opiniones, sentimientos y patrones narrativos pre
 Demo: 
 
 Ejecución local
-# streamlit run app.py
+streamlit run app.py
 
 El sistema no requiere API keys ni GPU.
 Funciona 100% local con modelos de Hugging Face.
