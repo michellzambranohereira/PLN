@@ -1,7 +1,7 @@
 streamlit>=1.33
 pandas>=2.0
 langchain==0.1.16
-langchain-community==0.0.26
+langchain-community==0.0.34
 chromadb==0.5.4
 sentence-transformers==2.2.2
 transformers==4.44.0
