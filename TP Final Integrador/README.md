@@ -167,7 +167,7 @@ Causa: El código chocaba ANTES de renderizar Streamlit (errores de embeddings o
 
 Solución: Encapsular carga en funciones cacheadas (@st.cache_resource). Probar el pipeline por partes. Confirmar que el dataset carga correctamente
 
-7. El sistema respondía mal
+7. El sistema responde mal (no se logró resolver)
 
 Causa: Modelo pequeño (Flan-T5). Sin prompt personalizado. Reseñas cortas → poco contenido.
 
