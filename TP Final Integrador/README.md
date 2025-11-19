@@ -126,3 +126,9 @@ pip install -r requirements.txt
 
 3. Ejecutar la aplicación
 streamlit run app.py
+
+
+Autoras:
+- Michell Zambrano
+- Florencia Lombardi
+- Stefanía Jiménez
