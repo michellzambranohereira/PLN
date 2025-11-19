@@ -104,31 +104,7 @@ Hecha con Streamlit:
 - Reseñas utilizadas como fuente
 
 Diagrama de Flujo:
-            ┌──────────────────────┐
-            │   reseñas.csv        │
-            └────────┬─────────────┘
-                     │ Ingesta
-                     ▼
-           ┌──────────────────────┐
-           │  División en chunks  │
-           └────────┬─────────────┘
-                     │ Embeddings
-                     ▼
-           ┌──────────────────────┐
-           │     ChromaDB         │
-           └────────┬─────────────┘
-                     │ Retrieval
-                     ▼
-           ┌──────────────────────┐
-           │       LLM            │
-           │   (Flan-T5-Base)     │
-           └────────┬─────────────┘
-                     │
-                     ▼
-           ┌──────────────────────┐
-           │     Respuesta        │
-           │      + Fuentes       │
-           └──────────────────────┘
+<img width="226" height="531" alt="image" src="https://github.com/user-attachments/assets/357ba9ea-5a9c-4c04-be00-0cd89c440ede" />
 
 Stack Tecnológico: 
 Componente	  /  Tecnología
