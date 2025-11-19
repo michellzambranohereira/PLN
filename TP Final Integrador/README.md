@@ -104,16 +104,13 @@ Hecha con Streamlit:
 - Reseñas utilizadas como fuente
 
 Diagrama de Flujo:
+
 <img width="226" height="531" alt="image" src="https://github.com/user-attachments/assets/357ba9ea-5a9c-4c04-be00-0cd89c440ede" />
 
 Stack Tecnológico: 
-Componente	  /  Tecnología
-LLM	             Flan-T5-Base (Hugging Face)
-Embeddings	     MiniLM-L6-v2
-Vector DB	       ChromaDB
-Framework RAG	   LangChain
-Interfaz	       Streamlit
-Deployment	     Ejecución local
+
+<img width="419" height="178" alt="image" src="https://github.com/user-attachments/assets/e1ce122a-4ee0-4b47-bcc8-cea464316499" />
+
 
 Ejecución Local:
 
