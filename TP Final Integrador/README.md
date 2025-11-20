@@ -127,6 +127,8 @@ pip install -r requirements.txt
 3. Ejecutar la aplicación
 streamlit run app.py
 
+4. Luego se redirige a http://localhost:8501/
+
 Errores Encontrados y Soluciones
 
 A continuación se detallan los principales errores enfrentados durante el desarrollo, qué los causaba y cómo se resolvieron.
